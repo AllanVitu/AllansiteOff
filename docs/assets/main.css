@@ -411,12 +411,38 @@ main {
   backdrop-filter: blur(16px);
 }
 
+.project-card--link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card--link:hover,
+.project-card--link:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 55px rgba(12, 12, 12, 0.14);
+}
+
+.project-card--link:focus-visible {
+  outline: 2px solid rgba(15, 16, 18, 0.45);
+  outline-offset: 4px;
+}
+
 .project-thumb {
   height: 180px;
 }
 
 .project-thumb--commerce {
-  background: linear-gradient(135deg, #0d1b2a, #315573 65%, #e0d6c6);
+  background-image: linear-gradient(
+      135deg,
+      rgba(13, 27, 42, 0.35),
+      rgba(49, 85, 115, 0.25)
+    ),
+    url("imgs/warchess-card.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .project-thumb--mobile {
