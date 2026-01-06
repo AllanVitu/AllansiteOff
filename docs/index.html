@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="assets/main.js" defer></script>
+    <title>Allan - Développeur Web & Mobile</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a class="logo" href="#accueil">Allan</a>
+            <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="primary-nav">
+                <li><a href="#competences" data-nav-link>Compétences</a></li>
+                <li><a href="#projets" data-nav-link>Projets</a></li>
+                <li><a href="#apropos" data-nav-link>A propos</a></li>
+                <li><a href="#contact" data-nav-link>Contact</a></li>
+            </ul>
+            <a class="nav-cta button button--dark" href="#contact">Me contacter</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero__content">
+                <p class="eyebrow">Allan</p>
+                <h1>Développeur Freelance<br>Web & Mobile</h1>
+                <p class="lead">
+                    Développeur web et mobile passionné, je conçois des expériences digitales sur mesure
+                    pour donner vie à vos idées avec clarté, performance et élégance.
+                </p>
+                <div class="hero__actions">
+                    <a class="button button--ghost" href="#contact">Discutons de votre projet →</a>
+                    <a class="button button--light" href="#projets">Voir les projets</a>
+                </div>
+                <div class="hero__stats">
+                    <div>
+                        <span class="stat">2+</span>
+                        <span class="stat-label">années d'expérience</span>
+                    </div>
+                    <div>
+                        <span class="stat">0</span>
+                        <span class="stat-label">projets livrés</span>
+                    </div>
+                    <div>
+                        <span class="stat">12h</span>
+                        <span class="stat-label">temps de réponse</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="portrait-card">
+                    <div class="portrait" aria-hidden="true"></div>
+                    <div class="portrait-info">
+                        <span class="status-dot"></span>
+                        <div>
+                            <p class="portrait-title">Disponible</p>
+                            <p class="portrait-subtitle">Basé à Belfort • Remote friendly</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <p class="floating-title">Stack préférée</p>
+                    <p class="floating-body">HTML · Node.js · CSS</p>
+                </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section">
+            <div class="section__header">
+                <h2>Mes Compétences</h2>
+                <p>Une approche complète, de l’architecture à l’interface utilisateur.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="card reveal" data-reveal>
+                    <div class="icon">
+                        <svg viewBox="0 0 64 64" aria-hidden="true">
+                            <path d="M10 14h44v36H10z" fill="none" stroke="currentColor" stroke-width="3" />
+                            <path d="M20 22l-8 10 8 10M44 22l8 10-8 10" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Développement Front-End</h3>
+                    <p>React.js, Vue.js, HTML, CSS, animations.</p>
+                </article>
+                <article class="card reveal" data-reveal>
+                    <div class="icon">
+                        <svg viewBox="0 0 64 64" aria-hidden="true">
+                            <path d="M32 10l20 12v20L32 54 12 42V22z" fill="none" stroke="currentColor"
+                                stroke-width="3" />
+                            <path d="M32 18v28M20 26h24" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Développement Back-End</h3>
+                    <p>Node.js, MongoDB, API REST.</p>
+                </article>
+                <article class="card reveal" data-reveal>
+                    <div class="icon">
+                        <svg viewBox="0 0 64 64" aria-hidden="true">
+                            <rect x="16" y="8" width="32" height="48" rx="6" fill="none" stroke="currentColor"
+                                stroke-width="3" />
+                            <path d="M24 20h16M24 30h16M24 40h12" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Applications Mobiles</h3>
+                    <p>iOS & Android, React Native</p>
+                </article>
+                <article class="card reveal" data-reveal>
+                    <div class="icon">
+                        <svg viewBox="0 0 64 64" aria-hidden="true">
+                            <circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="3" />
+                            <path d="M20 32h24M32 20v24" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Développement site web</h3>
+                    <p>Sites vitrines, e-commerce, sur-mesure.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projets" class="section section--alt">
+            <div class="section__header">
+                <h2>Projets Récents</h2>
+                <p>Des réalisations modernes, rapides et centrées sur l’utilisateur.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal" data-reveal>
+                    <div class="project-thumb project-thumb--commerce"></div>
+                    <div class="project-body">
+                        <h3>Plateforme e-Commerce Moderne</h3>
+                        <p>Création d’une plateforme performante avec React et Node.js.</p>
+                        <div class="project-tags">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>5 semaines</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card reveal" data-reveal>
+                    <div class="project-thumb project-thumb--mobile"></div>
+                    <div class="project-body">
+                        <h3>Application Mobile de Gestion</h3>
+                        <p>Application complète pour la gestion de tâches et de projets.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>4 semaines</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card reveal" data-reveal>
+                    <div class="project-thumb project-thumb--startup"></div>
+                    <div class="project-body">
+                        <h3>Site Web en React pour Startup</h3>
+                        <p>Réalisation d’un site vitrine dynamique pour une startup tech.</p>
+                        <div class="project-tags">
+                            <span>React.js</span>
+                            <span>JavaScript</span>
+                            <span>3 semaines</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="apropos" class="section about">
+            <div class="about__card">
+                <h2>A propos</h2>
+                <p>
+                    J’accompagne les équipes et les entrepreneurs dans la création d’interfaces élégantes et
+                    de produits robustes. Mon approche : un design clair, un code propre, et une livraison rapide.
+                </p>
+                <div class="about__highlights">
+                    <span>UX & UI soignées</span>
+                    <span>Performance web</span>
+                    <span>Collaboration agile</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section cta">
+            <div class="cta__content">
+                <h2>Vous avez un projet en tête ? Parlons-en.</h2>
+                <p>Je réponds rapidement pour cadrer votre besoin et proposer un plan d’action clair.</p>
+                <a class="button button--dark" href="mailto:allan.vitu90@gmail.com">Me contacter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Allan. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
