@@ -522,7 +522,7 @@ main {
       rgba(31, 42, 34, 0.2),
       rgba(82, 109, 88, 0.25)
     ),
-    url("/docs/assets/imgs/imgCardOne.jpg");
+    url("https://github.com/AllanVitu/siteVitrine/blob/main/docs/assets/imgs/imgCardOne.jpg");
 }
 
 .project-thumb--mobile {
